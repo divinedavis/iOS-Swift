@@ -22,14 +22,28 @@
                                     <!--2015-08-07 02:02:51 +0000-->
                                 </date>
                             </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pb2-jx-rmq">
+                                <rect key="frame" x="240" y="307" width="120" height="30"/>
+                                <state key="normal" title="What day is that?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="displayDay:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dDR-yC-jCL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="pb2-jx-rmq" firstAttribute="centerX" secondItem="1ct-rv-KPf" secondAttribute="centerX" id="6PT-6i-22f"/>
                             <constraint firstAttribute="trailing" secondItem="1ct-rv-KPf" secondAttribute="trailing" id="Ges-ti-4Hp"/>
                             <constraint firstItem="1ct-rv-KPf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="bsT-6z-KU3"/>
+                            <constraint firstItem="pb2-jx-rmq" firstAttribute="top" secondItem="1ct-rv-KPf" secondAttribute="bottom" constant="8" symbolic="YES" id="deL-KL-8TL"/>
                             <constraint firstItem="1ct-rv-KPf" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="117" id="wQk-7g-7aX"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="datePicker" destination="1ct-rv-KPf" id="vf5-jM-kKu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
