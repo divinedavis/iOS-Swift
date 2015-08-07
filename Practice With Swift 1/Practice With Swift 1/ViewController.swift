@@ -28,8 +28,12 @@ class ViewController: UIViewController {
         //Create alert
         let myAlert = UIAlertController(title: result, message: nil, preferredStyle: UIAlertControllerStyle.Alert)
         
+        //Create an "OK" button
+        myAlert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Destructive, handler: nil))
+        
         //Show alert
         self.presentViewController(myAlert, animated: true, completion: nil)
+        
         
     }
     
