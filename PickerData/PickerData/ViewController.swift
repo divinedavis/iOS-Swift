@@ -24,6 +24,24 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         return moodArray[row]
     }
     
+    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        var newBackgroundColor: UIColor
+        
+        switch row {
+        case 0:
+            newBackgroundColor = UIColor.yellowColor()
+        case 1:
+            newBackgroundColor = UIColor.blackColor()
+        case 2:
+            newBackgroundColor = UIColor.blueColor()
+        case 3:
+            newBackgroundColor = UIColor.purpleColor()
+        default:
+            newBackgroundColor = UIColor.whiteColor()
+        }
+        self.view.backgroundColor = newBackgroundColor
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
