@@ -19,8 +19,8 @@
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dVm-qx-8IG">
                                 <rect key="frame" x="0.0" y="142" width="600" height="162"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="kh9-bI-dsS" id="sJ2-aN-2IS"/>
-                                    <outlet property="delegate" destination="kh9-bI-dsS" id="YT4-DJ-tLf"/>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="FRu-5c-cEG"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="I5V-Qm-yVb"/>
                                 </connections>
                             </pickerView>
                         </subviews>
