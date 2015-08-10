@@ -62,7 +62,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.detailTextLabel?.text = courseAuthor
         }
         
-                
+        //Create an image for the cell
+        var myImage = UIImage(named: "CellImage")
+        cell.imageView?.image = myImage
         
         return cell
     }
@@ -73,7 +75,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         } else {
             return "Web Courses"
         }
+      
     }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
