@@ -63,7 +63,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         
         //Create an image for the cell
-        var myImage = UIImage(named: "CellImage")
+        var myImage = UIImage(named: "CellIcon")
         cell.imageView?.image = myImage
         
         return cell
