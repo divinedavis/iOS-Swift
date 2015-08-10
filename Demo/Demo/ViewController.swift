@@ -62,20 +62,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.detailTextLabel?.text = courseAuthor
         }
         
-        func tableView(tableView: UITableView,
-            titleForHeaderInSection section: Int) -> String? {
-                if section == 0 {
-                    return "Developer Courses"
-                } else {
-                    return "Web Courses"
-                }
                 
-        }
-        
-        
-   
         
         return cell
+    }
+    
+    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if section == 0 {
+            return "Developer Courses"
+        } else {
+            return "Web Courses"
+        }
     }
 
     override func viewDidLoad() {
