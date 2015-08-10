@@ -87,7 +87,7 @@
         <!--Third-->
         <scene sceneID="nbH-ed-ojw">
             <objects>
-                <viewController id="XFe-DI-oSa" sceneMemberID="viewController">
+                <viewController id="XFe-DI-oSa" customClass="ThirdViewController" customModule="Tabbed" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OvX-m4-l4z"/>
                         <viewControllerLayoutGuide type="bottom" id="9XJ-VK-VvM"/>
