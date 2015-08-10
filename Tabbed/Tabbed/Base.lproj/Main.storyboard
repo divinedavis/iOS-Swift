@@ -84,7 +84,7 @@
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
-        <!--Item-->
+        <!--Third-->
         <scene sceneID="nbH-ed-ojw">
             <objects>
                 <viewController id="XFe-DI-oSa" sceneMemberID="viewController">
@@ -109,7 +109,7 @@
                             <constraint firstItem="haQ-7Q-wSv" firstAttribute="top" secondItem="OvX-m4-l4z" secondAttribute="bottom" constant="172" id="zEX-XD-krz"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="BiH-Sz-HtB"/>
+                    <tabBarItem key="tabBarItem" title="Third" image="third" id="BiH-Sz-HtB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Wa-e2-Haj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -139,5 +139,6 @@
     <resources>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
+        <image name="third" width="25" height="23"/>
     </resources>
 </document>
