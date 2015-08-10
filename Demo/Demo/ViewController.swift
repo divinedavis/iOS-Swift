@@ -44,7 +44,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = UITableViewCell()
+        var cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         let (courseTitle, courseAuthor) = devCourses[indexPath.row]
         cell.textLabel?.text = courseTitle
         cell.detailTextLabel?.text = courseAuthor
