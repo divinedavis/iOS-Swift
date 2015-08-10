@@ -36,20 +36,44 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
+        return 2
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return devCourses.count
+        if section == 0 {
+            return devCourses.count
+        } else {
+            return webCourses.count
+        }
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
         var cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! UITableViewCell
         
-        let (courseTitle, courseAuthor) = devCourses[indexPath.row]
+        if indexPath.section == 0 {
+            let (courseTitle, courseAuthor) = devCourses[indexPath.row]
+            cell.textLabel?.text = courseTitle
+            cell.detailTextLabel?.text = courseAuthor
+            
+        } else {
+            let (courseTitle, courseAuthor) = webCourses[indexPath.row]
+            cell.textLabel?.text = courseTitle
+            cell.detailTextLabel?.text = courseAuthor
+        }
         
-        cell.textLabel?.text = courseTitle
-        cell.detailTextLabel?.text = courseAuthor
+        func tableView(tableView: UITableView,
+            titleForHeaderInSection section: Int) -> String? {
+                if section == 0 {
+                    return "Developer Courses"
+                } else {
+                    return "Web Courses"
+                }
+                
+        }
+        
+        
+   
         
         return cell
     }
