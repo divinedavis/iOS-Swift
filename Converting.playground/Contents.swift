@@ -8,3 +8,9 @@ var unitPrice = 34.44
 println("The amount is \(Double(quantity) * unitPrice)")
 
 var result = Double(quantity) * unitPrice
+
+var name = "Bob"
+
+for eachChar in name {
+    println(eachChar)
+}
