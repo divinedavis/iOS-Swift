@@ -9,7 +9,7 @@ class Player {
     
     //methods
     func description() -> String {
-        return("Player \(name) has a score of \(score)")
+        return("Player \(name!) has a score of \(score!)")
     }
     
 }
