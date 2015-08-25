@@ -3,7 +3,7 @@
 import UIKit
 
 enum SeatPreference {
-    case Window
+    case Window 
     case Middle
     case Aisle
     case NoPreference
