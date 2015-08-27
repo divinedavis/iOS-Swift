@@ -4,4 +4,4 @@ let someString = "Hello world, how are you?"
 
 someString.capitalizedString
 
-let someDate = NSUrl(String)
+let someDate = NSURL(string: "www.apple.com")
