@@ -12,8 +12,8 @@ class BankAccount {
         return 2.0
     }
     
-    init(num : Int, initialBalance : Double) {
-        self.accountNumber = num
+    init(accountNum : Int, initialBalance : Double) {
+        self.accountNumber = accountNum
         self.balance = initialBalance
     }
     
@@ -34,7 +34,7 @@ class BankAccount {
     }
 }
 
-var firstAccount = BankAccount(num: 1212121212, initialBalance: 1000.0)
-var secondAccount = BankAccount(num: 22121212, initialBalance: 3444.54)
+var firstAccount = BankAccount(accountNum : 1212121212, initialBalance: 1000.0)
+var secondAccount = BankAccount(accountNum: 22121212, initialBalance: 3444.54)
 BankAccount.interestRate
 BankAccount.example()
