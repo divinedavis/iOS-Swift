@@ -24,3 +24,8 @@ if dateA === dateB {
     println("The might be equal but they are not identical")
 }
 
+var dateC = dateA // By reference
+
+if dateA === dateC {
+    println("Yes, dateA and dateC are identical - they refer to the same object.")
+}
