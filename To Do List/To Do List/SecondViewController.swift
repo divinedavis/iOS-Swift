@@ -16,7 +16,7 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
     @IBAction func addItemButton(sender: UIButton) {
         
         toDoItems.append(toDoItem.text)
-        
+        self.view.endEditing(true)
         println(toDoItems)
         
     }
