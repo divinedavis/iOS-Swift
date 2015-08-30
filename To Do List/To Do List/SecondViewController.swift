@@ -18,6 +18,7 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         toDoItems.append(toDoItem.text)
         self.view.endEditing(true)
         println(toDoItems)
+        // NSUserDefaults.standardUserDefaults().setObject(toDoItems, forKey: "todDo")
         
     }
     
