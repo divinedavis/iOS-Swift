@@ -45,7 +45,6 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         } else {
             println(toDoItems)
         }
-            
             tasksTable?.reloadData()
         }
 
