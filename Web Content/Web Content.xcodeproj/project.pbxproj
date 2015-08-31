@@ -36,6 +36,7 @@
 		16B5B32F1B94A43E005084F9 /* Web ContentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Web ContentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B5B3341B94A43E005084F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16B5B3351B94A43E005084F9 /* Web_ContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web_ContentTests.swift; sourceTree = "<group>"; };
+		16B5B33F1B94A6C7005084F9 /* Web Content.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Web Content.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 			children = (
 				16B5B31F1B94A43E005084F9 /* AppDelegate.swift */,
 				16B5B3211B94A43E005084F9 /* ViewController.swift */,
+				16B5B33F1B94A6C7005084F9 /* Web Content.playground */,
 				16B5B3231B94A43E005084F9 /* Main.storyboard */,
 				16B5B3261B94A43E005084F9 /* Images.xcassets */,
 				16B5B3281B94A43E005084F9 /* LaunchScreen.xib */,
