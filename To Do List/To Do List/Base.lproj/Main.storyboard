@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="NZW-G8-Ihz">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="NZW-G8-Ihz">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
@@ -28,8 +28,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="NZW-G8-Ihz" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="Yau-a9-tTd"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="NZW-G8-Ihz" secondAttribute="trailing" id="ey4-v1-42X"/>
+                            <constraint firstAttribute="trailing" secondItem="NZW-G8-Ihz" secondAttribute="trailing" id="5gx-Ub-alp"/>
+                            <constraint firstAttribute="bottom" secondItem="NZW-G8-Ihz" secondAttribute="bottom" id="dGm-XL-qaC"/>
+                            <constraint firstItem="NZW-G8-Ihz" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="msf-kF-BKE"/>
+                            <constraint firstItem="NZW-G8-Ihz" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="zRV-0i-Yfh"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="To Do List" image="first" id="acW-dT-cKf"/>

@@ -16,8 +16,6 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        println(toDoItems)
-        
         
     }
     
@@ -40,13 +38,14 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     override func viewWillAppear(animated: Bool) {
-        
-        toDoItems = []
-        
-        if var storedToDoItems = NSUserDefaults.standardUserDefaults().objectForKey("toDoItems") as? [String] {
+            
+        if let storedToDoItems = NSUserDefaults.standardUserDefaults().objectForKey("toDoItems") as? [String] {
                 toDoItems = storedToDoItems
-            }
-        
+            println(toDoItems)
+        } else {
+            println(toDoItems)
+        }
+            
             tasksTable?.reloadData()
         }
 
