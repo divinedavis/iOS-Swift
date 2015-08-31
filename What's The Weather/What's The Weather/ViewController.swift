@@ -21,8 +21,8 @@ class ViewController: UIViewController {
         
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!){(data, response, error) in
             
-            var urlContent = [NSString(data: data, encoding: NSUTF8StringEncoding)]
-            var contentArray = urlContent.componentsSeparatedByString("")
+            if let urlContent = NSString(data: data, encoding: NSUTF8StringEncoding)
+            let contentArray = urlContent.componentsSeparatedByString("")
         }
         task.resume()
     }
