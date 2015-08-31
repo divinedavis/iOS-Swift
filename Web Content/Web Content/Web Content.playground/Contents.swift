@@ -24,5 +24,5 @@ if (newString.containsString("Test")) {
 
 newString.componentsSeparatedByString(" ")
 
-
-
+newString.uppercaseString
+newString.lowercaseString
