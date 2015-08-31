@@ -15,8 +15,16 @@ class ViewController: UIViewController {
     
     @IBAction func buttonPressed(sender: AnyObject) {
         
-        var urlString = "http://www.weather-forecast.com/locations" + city.text + "/forecasts/latest"
+        var urlString = "http://www.weather-forecast.com/locations/" + city.text.stringByReplacingOccurrencesOfString(" ", withString: "") + "/forecasts/latest"
         
+        var url = NSURL(string: urlString)
+        
+        let task = NSURLSession.sharedSession().dataTaskWithURL(url!){(data, response, error) in
+            
+            var urlContent = [NSString(data: data, encoding: NSUTF8StringEncoding)]
+            var contentArray = urlContent.componentsSeparatedByString("")
+        }
+        task.resume()
     }
   
     override func viewDidLoad() {
