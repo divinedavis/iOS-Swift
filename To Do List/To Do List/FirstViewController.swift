@@ -47,6 +47,18 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         }
             tasksTable?.reloadData()
         }
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if (editingStyle == UITableViewCellEditingStyle.Delete) {
+            toDoItems.removeAtIndex(indexPath.row)
+            
+            let fixedToDoItems = toDoItems
+            
+            NSUserDefaults.standardUserDefaults().setObject(fixedToDoItems, forKey: "todDoItems")
+            NSUserDefaults.standardUserDefaults().synchronize()
+            
+            tasksTable?.reloadData()
+        }
+    }
 
 
 }
