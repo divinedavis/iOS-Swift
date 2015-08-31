@@ -13,12 +13,16 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var toDoItem: UITextField!
     
-    @IBAction func addItemButton(sender: UIButton) {
+    @IBAction func addItemButton(sender: AnyObject) {
         
         toDoItems.append(toDoItem.text)
+        
+        let fixedToDoItems = toDoItems
+        
+        NSUserDefaults.standardUserDefaults().setObject(fixedToDoItems, forKey: "todDoItems")
+        NSUserDefaults.standardUserDefaults().synchronize()
+        
         self.view.endEditing(true)
-        println(toDoItems)
-        // NSUserDefaults.standardUserDefaults().setObject(toDoItems, forKey: "todDo")
         
     }
     

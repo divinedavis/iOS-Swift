@@ -35,6 +35,16 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     override func viewWillAppear(animated: Bool) {
+        if var storedToDoItems : AnyObject?  = NSUserDefaults.standardUserDefaults().objectForKey("toDoItems") {
+            
+            toDoItems = []
+            
+            for var i = 0; i < storedToDoItems?.count(); ++i {
+                toDoItems.append(storedToDoItems[i] as NSString)
+            }
+            
+        }
+        
         tasksTable?.reloadData()
     }
 
