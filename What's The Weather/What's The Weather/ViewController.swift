@@ -15,14 +15,20 @@ class ViewController: UIViewController {
     
     @IBAction func buttonPressed(sender: AnyObject) {
         
+        self.view.endEditing(true)
+        
         var urlString = "http://www.weather-forecast.com/locations/" + city.text.stringByReplacingOccurrencesOfString(" ", withString: "") + "/forecasts/latest"
         
         var url = NSURL(string: urlString)
         
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!){(data, response, error) in
             
-            if let urlContent = NSString(data: data, encoding: NSUTF8StringEncoding)
-            let contentArray = urlContent.componentsSeparatedByString("")
+            var urlContent = NSString(data: data, encoding: NSUTF8StringEncoding) 
+            var contentArray  = urlContent!.componentsSeparatedByString("<span class=\"phrase\">")
+            var newContentArray = contentArray[1].componentsSeparatedByString("</span>")
+            
+            self.message.text = (newContentArray[0] as! String)
+           
         }
         task.resume()
     }
