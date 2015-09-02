@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var city: UITextField!
     @IBOutlet weak var message: UILabel!
     
+    @IBOutlet weak var downloadProgress: UIProgressView!
+    
     @IBAction func buttonPressed(sender: AnyObject) {
         
         self.view.endEditing(true)
@@ -28,21 +30,37 @@ class ViewController: UIViewController {
             var newContentArray = contentArray[1].componentsSeparatedByString("</span>")
             
             self.message.text = (newContentArray[0] as! String)
-           
+            
         }
         task.resume()
     }
+    
   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+
+        self.downloadProgress.progress = 0.0
+       
     }
+    func makeMyProgressBarMoving {
+    
+        var recievedData : Float
+        var expectedTotalSize : Float
+        var actual : Float = downloadProgress.progress
+        if (actual < 1) {
+            downloadProgress.progress = actual + (recievedData/expectedTotalSize)
+            [NSTimer .scheduledTimerWithTimeInterval(0.05, invocation: self, repeats: false)]
+        }
+        
+    }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
 }
 
