@@ -47,7 +47,7 @@ class ViewController: UIViewController {
             
                 //Changing the text color to white
                 self.message.textColor = UIColor .whiteColor()
-                self.message.text = (newContentArray[0] as! String)
+                self.message.text = (newContentArray[0].stringByReplacingOccurrencesOfString("&deg;", withString: "º") as? String)
                     
                 }
             } else {
