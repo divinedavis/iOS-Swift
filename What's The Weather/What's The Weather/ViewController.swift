@@ -39,12 +39,20 @@ class ViewController: UIViewController {
             
             if (urlContent!.containsString("<span class=\"phrase\">")){
                 
-            var contentArray  = urlContent!.componentsSeparatedByString("<span class=\"phrase\">")
-            var newContentArray = contentArray[1].componentsSeparatedByString("</span>")
+                var contentArray  = urlContent!.componentsSeparatedByString("<span class=\"phrase\">")
+                var newContentArray = contentArray[1].componentsSeparatedByString("</span>")
             
-            self.message.text = (newContentArray[0] as! String)
+                //Changing the text color to blue
+                self.message.textColor = UIColor .blueColor()
+                self.message.text = (newContentArray[0] as! String)
+            } else {
+                
+                //Changing the text color to red
+                self.message.textColor = UIColor .redColor()
+                
+                //Error message
+                self.message.text = "The weather was not able to be retrieved"
             }
-            
         }
         task.resume()
     }
