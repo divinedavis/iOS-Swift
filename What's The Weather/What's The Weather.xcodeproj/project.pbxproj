@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		167101ED1B99E10400C988FB /* sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 167101EC1B99E10400C988FB /* sun.jpg */; };
 		16B5B34F1B94A9A7005084F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5B34E1B94A9A7005084F9 /* AppDelegate.swift */; };
 		16B5B3511B94A9A7005084F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5B3501B94A9A7005084F9 /* ViewController.swift */; };
 		16B5B3541B94A9A7005084F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B5B3521B94A9A7005084F9 /* Main.storyboard */; };
 		16B5B3561B94A9A7005084F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B5B3551B94A9A7005084F9 /* Images.xcassets */; };
 		16B5B3591B94A9A7005084F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B5B3571B94A9A7005084F9 /* LaunchScreen.xib */; };
 		16B5B3651B94A9A8005084F9 /* What_s_The_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5B3641B94A9A8005084F9 /* What_s_The_WeatherTests.swift */; };
-		16B5B36F1B950599005084F9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B5B36E1B950599005084F9 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		167101EC1B99E10400C988FB /* sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun.jpg; sourceTree = SOURCE_ROOT; };
 		16B5B3491B94A9A7005084F9 /* What's The Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What's The Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B5B34D1B94A9A7005084F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16B5B34E1B94A9A7005084F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		16B5B35E1B94A9A8005084F9 /* What's The WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What's The WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B5B3631B94A9A8005084F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16B5B3641B94A9A8005084F9 /* What_s_The_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_s_The_WeatherTests.swift; sourceTree = "<group>"; };
-		16B5B36E1B950599005084F9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../../Downloads/background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 				16B5B34E1B94A9A7005084F9 /* AppDelegate.swift */,
 				16B5B3501B94A9A7005084F9 /* ViewController.swift */,
 				16B5B3521B94A9A7005084F9 /* Main.storyboard */,
-				16B5B36E1B950599005084F9 /* background.png */,
 				16B5B3551B94A9A7005084F9 /* Images.xcassets */,
+				167101EC1B99E10400C988FB /* sun.jpg */,
 				16B5B3571B94A9A7005084F9 /* LaunchScreen.xib */,
 				16B5B34C1B94A9A7005084F9 /* Supporting Files */,
 			);
@@ -195,8 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167101ED1B99E10400C988FB /* sun.jpg in Resources */,
 				16B5B3541B94A9A7005084F9 /* Main.storyboard in Resources */,
-				16B5B36F1B950599005084F9 /* background.png in Resources */,
 				16B5B3591B94A9A7005084F9 /* LaunchScreen.xib in Resources */,
 				16B5B3561B94A9A7005084F9 /* Images.xcassets in Resources */,
 			);
@@ -413,6 +413,7 @@
 				16B5B36A1B94A9A8005084F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16B5B36B1B94A9A8005084F9 /* Build configuration list for PBXNativeTarget "What's The WeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				16B5B36D1B94A9A8005084F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

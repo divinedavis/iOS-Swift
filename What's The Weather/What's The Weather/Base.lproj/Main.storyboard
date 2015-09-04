@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="syS-XP-6vR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sun.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="syS-XP-6vR">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter a city to find out the weather" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgo-dO-de2">
@@ -64,6 +64,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background.png" width="5760" height="3840"/>
+        <image name="sun.jpg" width="2560" height="1920"/>
     </resources>
 </document>
