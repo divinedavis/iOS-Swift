@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class ViewController: UIViewController {
 
@@ -34,11 +35,15 @@ class ViewController: UIViewController {
         
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!){(data, response, error) in
             
-            var urlContent = NSString(data: data, encoding: NSUTF8StringEncoding) 
+            var urlContent = NSString(data: data, encoding: NSUTF8StringEncoding)
+            
+            if (urlContent!.containsString("<span class=\"phrase\">")){
+                
             var contentArray  = urlContent!.componentsSeparatedByString("<span class=\"phrase\">")
             var newContentArray = contentArray[1].componentsSeparatedByString("</span>")
             
             self.message.text = (newContentArray[0] as! String)
+            }
             
         }
         task.resume()
