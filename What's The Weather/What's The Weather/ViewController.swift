@@ -39,7 +39,7 @@ class ViewController: UIViewController {
             var newContentArray = contentArray[1].componentsSeparatedByString("</span>")
             
             //Updating the message text with the content that I want from the HTML source
-            self.message.text = (newContentArray[0] as! String)
+            self.message.text = (newContentArray[0].stringByReplacingOccurrencesOfString("&deg;", withString: "º") as! String)
             
         }
         task.resume()
@@ -55,17 +55,17 @@ class ViewController: UIViewController {
     }
     
     
-    func makeMyProgressBarMoving {
-    
-        var recievedData : Float
-        var expectedTotalSize : Float
-        var actual : Float = downloadProgress.progress
-        if (actual < 1) {
-            downloadProgress.progress = actual + (recievedData/expectedTotalSize)
-            [NSTimer .scheduledTimerWithTimeInterval(0.05, invocation: self, repeats: false)]
-        }
-        
-    }
+//    func makeMyProgressBarMoving {
+//    
+//        var recievedData : Float
+//        var expectedTotalSize : Float
+//        var actual : Float = downloadProgress.progress
+//        if (actual < 1) {
+//            downloadProgress.progress = actual + (recievedData/expectedTotalSize)
+//            [NSTimer .scheduledTimerWithTimeInterval(0.05, invocation: self, repeats: false)]
+//        }
+//        
+//    }
     
     
 
