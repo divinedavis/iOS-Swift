@@ -46,7 +46,7 @@ class ViewController: UIViewController {
                 dispatch_async(dispatch_get_main_queue()) {
             
                 //Changing the text color to white
-                self.message.textColor = UIColor .whiteColor()()
+                self.message.textColor = UIColor .whiteColor()
                 self.message.text = (newContentArray[0] as! String)
                     
                 }
