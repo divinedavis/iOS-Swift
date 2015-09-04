@@ -41,17 +41,27 @@ class ViewController: UIViewController {
                 
                 var contentArray  = urlContent!.componentsSeparatedByString("<span class=\"phrase\">")
                 var newContentArray = contentArray[1].componentsSeparatedByString("</span>")
+                
+                //Make this the main part of the code I want to run first
+                dispatch_async(dispatch_get_main_queue()) {
             
-                //Changing the text color to blue
-                self.message.textColor = UIColor .blueColor()
+                //Changing the text color to white
+                self.message.textColor = UIColor .whiteColor()()
                 self.message.text = (newContentArray[0] as! String)
+                    
+                }
             } else {
+                
+                //Stop doing anything else and complete this code also
+                dispatch_async(dispatch_get_main_queue()) {
+
                 
                 //Changing the text color to red
                 self.message.textColor = UIColor .redColor()
                 
                 //Error message
                 self.message.text = "The weather was not able to be retrieved"
+                }
             }
         }
         task.resume()
@@ -62,7 +72,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
 
-        self.downloadProgress.progress = 0.0
+//        self.downloadProgress.progress = 0.0
     }
 //    }
 //    func makeMyProgressBarMoving {
