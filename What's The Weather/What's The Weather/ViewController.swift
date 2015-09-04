@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class ViewController: UIViewController {
 
@@ -33,6 +34,9 @@ class ViewController: UIViewController {
         
         
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!){(data, response, error) in
+            var urlContent : String
+            
+            if (urlContent.bridgeToObjectiveC().containsString!("<span class=\"phrase\">")) {
             
             var urlContent = NSString(data: data, encoding: NSUTF8StringEncoding) 
             var contentArray  = urlContent!.componentsSeparatedByString("<span class=\"phrase\">")
@@ -40,6 +44,9 @@ class ViewController: UIViewController {
             
             //Updating the message text with the content that I want from the HTML source
             self.message.text = (newContentArray[0].stringByReplacingOccurrencesOfString("&deg;", withString: "º") as! String)
+            } else {
+                self.message.text = "The weather that you was trying to find can not be located"
+            }
             
         }
         task.resume()
@@ -55,7 +62,7 @@ class ViewController: UIViewController {
     }
     
     
-//    func makeMyProgressBarMoving {
+//    func URLSession(session: NSURLSession, dataTask: NSURLSessionDataTask, didReceiveData data: NSData {
 //    
 //        var recievedData : Float
 //        var expectedTotalSize : Float
