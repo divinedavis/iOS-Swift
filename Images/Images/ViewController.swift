@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class ViewController: UIViewController {
     
@@ -34,12 +35,18 @@ class ViewController: UIViewController {
             drumerImage.image = UIImage(named: "Drumer\(counter).png")
     }
     
+    //Where the image will end up AFTER 'viewDidAppear' is called
     override func viewDidLayoutSubviews() {
-        drumerImage.center = CGPointMake(drumerImage.center.x - 400, drumerImage.center.y )
+        drumerImage.center = CGPointMake(drumerImage.center.x + 400, drumerImage.center.y + 200)
     }
     
+    //Where the view is placed at runtime.
     override func viewDidAppear(animated: Bool) {
-        <#code#>
+        UIView.animateWithDuration(3, animations: {
+            
+            self.drumerImage.center = CGPointMake(self.drumerImage.center.x - 400, self.drumerImage.center.y - 200)
+            
+        })
     }
 
 }

@@ -22,9 +22,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonHoldDown:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DGU-i8-Fzj"/>
-                                    <action selector="buttonHoldDown:" destination="vXZ-lx-hvc" eventType="touchDownRepeat" id="TqA-gP-f7r"/>
-                                    <action selector="buttonHoldDown:" destination="vXZ-lx-hvc" eventType="touchDown" id="bxe-Wn-vWd"/>
+                                    <action selector="buttonHoldDown:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Gag-sf-oAI"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Drumer1.png" translatesAutoresizingMaskIntoConstraints="NO" id="AHI-st-JZ7">
