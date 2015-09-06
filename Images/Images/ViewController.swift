@@ -32,8 +32,14 @@ class ViewController: UIViewController {
             counter = 1
         }
             drumerImage.image = UIImage(named: "Drumer\(counter).png")
-        
-        
+    }
+    
+    override func viewDidLayoutSubviews() {
+        drumerImage.center = CGPointMake(drumerImage.center.x - 400, drumerImage.center.y )
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        <#code#>
     }
 
 }
