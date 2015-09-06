@@ -12,12 +12,15 @@ import Foundation
 class ViewController: UIViewController {
     
     var counter = 1
+    var timer = NSTimer()
 
 
     @IBOutlet weak var drumerImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: Selector("result"), userInfo: nil, repeats: true)
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,21 +35,30 @@ class ViewController: UIViewController {
         if (counter == 5) {
             counter = 1
         }
-            drumerImage.image = UIImage(named: "Drumer\(counter).png")
+        drumerImage.image = UIImage(named: "Drumer\(counter).png")
     }
     
     //Where the image will end up AFTER 'viewDidAppear' is called
     override func viewDidLayoutSubviews() {
-        drumerImage.center = CGPointMake(drumerImage.center.x + 400, drumerImage.center.y + 200)
+        drumerImage.frame = CGRectMake(100, 20, 0, 0)
     }
     
     //Where the view is placed at runtime.
     override func viewDidAppear(animated: Bool) {
         UIView.animateWithDuration(3, animations: {
             
-            self.drumerImage.center = CGPointMake(self.drumerImage.center.x - 400, self.drumerImage.center.y - 200)
+            self.drumerImage.frame = CGRectMake(100, 20, 100, 200)
             
         })
+    }
+    
+    func result() {
+        counter++
+        
+        if (counter == 5) {
+            counter = 1
+        }
+        drumerImage.image = UIImage(named: "Drumer\(counter).png")
     }
 
 }
