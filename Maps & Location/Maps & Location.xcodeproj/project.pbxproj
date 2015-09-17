@@ -13,6 +13,7 @@
 		163C33411BA8ECB800506646 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163C33401BA8ECB800506646 /* Images.xcassets */; };
 		163C33501BA8ECB900506646 /* Maps___LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163C334F1BA8ECB900506646 /* Maps___LocationTests.swift */; };
 		163C335A1BA8ECE000506646 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163C33591BA8ECE000506646 /* MapKit.framework */; };
+		1646C2941BAA39E00022DA13 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1646C2931BAA39E00022DA13 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		163C334E1BA8ECB900506646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		163C334F1BA8ECB900506646 /* Maps___LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maps___LocationTests.swift"; sourceTree = "<group>"; };
 		163C33591BA8ECE000506646 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1646C2931BAA39E00022DA13 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1646C2941BAA39E00022DA13 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +63,7 @@
 		163C332B1BA8ECB800506646 = {
 			isa = PBXGroup;
 			children = (
+				1646C2931BAA39E00022DA13 /* CoreLocation.framework */,
 				163C33591BA8ECE000506646 /* MapKit.framework */,
 				163C33361BA8ECB800506646 /* Maps & Location */,
 				163C334C1BA8ECB900506646 /* Maps & LocationTests */,
