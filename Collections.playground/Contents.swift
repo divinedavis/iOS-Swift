@@ -31,3 +31,4 @@ homeruns["Scandal"] = 10
 homeruns["Posey"] = 44
 homeruns["Posey"]
 homeruns["Scandal"] = nil
+
