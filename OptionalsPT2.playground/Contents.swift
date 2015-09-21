@@ -9,5 +9,6 @@ var translatedWord : String? = "Cat"
 if translatedWord != nil {
     
     print(translatedWord!)
+    
 }
 
