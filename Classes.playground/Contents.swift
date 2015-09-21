@@ -24,10 +24,19 @@ class House {
 }
 
 var myHouse = House()
-
+func startFire() {
+    
+}
 myHouse.exteriorColor
 
 class Cabin: House {
+    override init() {
+        super.init()
+        exteriorColor = "Red"
+    }
     
+    override func prepareForDaytime() {
+        startFire()
+    }
 }
 
