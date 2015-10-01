@@ -28,3 +28,31 @@ extension Int {
 }
 
 1.sayHello()
+
+var one = 1
+let two = 2
+
+func go() {
+    let one = 1
+    var two = 2
+    two = one
+}
+
+func doGo() {
+    go()
+}
+
+doGo()
+
+
+
+
+
+
+
+
+
+
+
+
+
