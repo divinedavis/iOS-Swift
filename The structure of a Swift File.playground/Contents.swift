@@ -4,9 +4,6 @@ import UIKit
 
 
 
-enum Jack {
-    
-}
 
 func silly(book : Bool) -> Bool {
     if true {
@@ -64,6 +61,27 @@ enum Jack {
     struct Struct {}
     enum Enum {}
 }
+
+class Dog {
+    private var name = ""
+    private var whatADogSays = "woof"
+    func bark() {
+        print(whatADogSays)
+    }
+    func speak() {
+        print(whatADogSays)
+    }
+}
+Dog()
+
+var dog = Dog()
+print(dog.name)
+
+var dog2 = Dog()
+
+
+print(dog2.name)
+print(dog2.whatADogSays)
 
 
 
