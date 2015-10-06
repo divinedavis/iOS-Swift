@@ -2,39 +2,22 @@
 
 import UIKit
 
-class Dog {
-    func say(s : String, _ times : Int = 1) {
-        for _ in 1...times {
-            print(s)
-        }
+func countDownFrom(ix : Int) {
+    print(ix)
+    if ix > 0 {
+        countDownFrom(ix - 1)
     }
 }
 
-let d = Dog()
-d.say("Wofo", 99)
 
-let f = Dog()
-f.say("Hi")
+countDownFrom(9)
 
-func sayString(arrayOfStrings : String ...) {
-    for s in arrayOfStrings {
-        print(s)
-    }
+func doThis(f:()->()) {
+    f()
 }
 
-sayString("What", "Do", "You", "Mean")
-
-func say(s : String, times : Int, var loudly : Bool) {
-
-    loudly = true
-    loudly = false
+func whatToDo() {
+    print("I did this")
 }
 
-
-
-
-
-
-
-
-
+doThis(whatToDo)
