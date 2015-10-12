@@ -16,3 +16,7 @@ let uint64Max : UInt64 = UInt64.max
 
 
 let myInt : Int = 8
+
+let firstName = "Divine"
+let lastName = "Davis"
+let favoriteQuote = "My name is \(firstName) \(lastName)"
