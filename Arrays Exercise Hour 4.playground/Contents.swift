@@ -11,3 +11,11 @@ myName.insert("Jordan", atIndex: 1)
 myName.removeLast()
 myName.removeAtIndex(1)
 
+var myDictionary = ["What" : 1, "Whats": 2]
+
+myDictionary.count
+myDictionary.description
+myDictionary.reverse()
+
+var myDic = [:]
+
