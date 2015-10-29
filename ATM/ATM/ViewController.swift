@@ -10,14 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //Display additional information to the user
     @IBOutlet weak var detailLabel: UILabel!
     
+    //Where you enter your amount as an INT
     @IBOutlet weak var withdrawAmount: UITextField!
     
+    //How much you have left after you deposit, withdraw or transfer
     @IBOutlet weak var moneyLeftLabel: UILabel!
     
+    //Shows how much money you have transferred
     @IBOutlet weak var transferLabel: UILabel!
     
+    //Money transfers when you touch the button
     @IBAction func transferButton(sender: AnyObject) {
         
         moneyLeftLabel.text = "200"
@@ -36,6 +41,7 @@ class ViewController: UIViewController {
         }
         
     }
+    
     @IBAction func withdrawButton(sender: AnyObject) {
         
         detailLabel.text = ""
