@@ -24,7 +24,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SxU-zx-X1M">
-                                <rect key="frame" x="193" y="39" width="106" height="59"/>
+                                <rect key="frame" x="61" y="39" width="106" height="59"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -38,7 +38,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36A-Qy-wO4">
-                                <rect key="frame" x="91" y="342" width="66" height="30"/>
+                                <rect key="frame" x="45" y="342" width="66" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Withdraw"/>
                                 <connections>
@@ -52,21 +52,21 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHf-br-hxp">
-                                <rect key="frame" x="225" y="342" width="53" height="30"/>
-                                <animations/>
-                                <state key="normal" title="Deposit"/>
-                                <connections>
-                                    <action selector="depositButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SGP-gb-Hrt"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Zq-rY-JGe">
-                                <rect key="frame" x="150" y="39" width="42" height="57.5"/>
+                                <rect key="frame" x="20" y="39" width="42" height="57.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LiF-tT-LoN">
+                                <rect key="frame" x="159" y="342" width="57" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Transfer"/>
+                                <connections>
+                                    <action selector="transferButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2CW-wZ-xyG"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3i-dg-7B0">
                                 <rect key="frame" x="153" y="414" width="51" height="30"/>
                                 <animations/>
@@ -81,6 +81,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHf-br-hxp">
+                                <rect key="frame" x="276" y="342" width="53" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Deposit"/>
+                                <connections>
+                                    <action selector="depositButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SGP-gb-Hrt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
