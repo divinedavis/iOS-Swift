@@ -67,6 +67,13 @@
                                     <action selector="transferButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2CW-wZ-xyG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7P-Mm-gUt">
+                                <rect key="frame" x="210" y="39" width="140" height="57.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3i-dg-7B0">
                                 <rect key="frame" x="153" y="414" width="51" height="30"/>
                                 <animations/>
@@ -103,6 +110,7 @@
                     <connections>
                         <outlet property="detailLabel" destination="k4f-5T-Zdq" id="bgI-9F-Tc2"/>
                         <outlet property="moneyLeftLabel" destination="SxU-zx-X1M" id="C1m-jx-lKo"/>
+                        <outlet property="transferLabel" destination="b7P-Mm-gUt" id="NCH-De-E5V"/>
                         <outlet property="withdrawAmount" destination="clc-wU-V6Z" id="oiU-tH-xnQ"/>
                     </connections>
                 </viewController>

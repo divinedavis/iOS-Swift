@@ -11,12 +11,29 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var detailLabel: UILabel!
+    
     @IBOutlet weak var withdrawAmount: UITextField!
+    
     @IBOutlet weak var moneyLeftLabel: UILabel!
+    
+    @IBOutlet weak var transferLabel: UILabel!
     
     @IBAction func transferButton(sender: AnyObject) {
         
+        moneyLeftLabel.text = "200"
         
+        let initialBalance = Int(moneyLeftLabel.text!)! - Int(withdrawAmount.text!)!
+        
+        let transferredAmount = Int(withdrawAmount.text!)!
+        
+        moneyLeftLabel.text = String(initialBalance)
+        
+        transferLabel.text = String(transferredAmount)
+        
+        if Int(moneyLeftLabel.text!) < 0 {
+            
+            detailLabel.text = "You don't have enough funds, you broke"
+        }
         
     }
     @IBAction func withdrawButton(sender: AnyObject) {
