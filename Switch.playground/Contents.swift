@@ -111,6 +111,17 @@ default:
     "Done"
 }
 
+var name = "jDoe"
+
+if name == name {
+    switch name {
+    case "jDoe":
+        "I am jDoe"
+    default:
+        "I am not John Doe"
+    }
+}
+
 
 
 
