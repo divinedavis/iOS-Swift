@@ -103,7 +103,13 @@ default:
     "Huh?"
 }
 
-
+var student = ("Divine", 1)
+switch student {
+case let (Name, Number) where Number == 1:
+    "I'm a number 1-8"
+default:
+    "Done"
+}
 
 
 
