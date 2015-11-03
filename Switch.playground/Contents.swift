@@ -72,7 +72,36 @@ case let (word, amount):
     "You have \(amount) \(word)s."
 }
 
+let someValue = 0
+switch someValue {
+case 0:
+    "someValue is 0."
+    break
+default:
+    break
+}
 
+let anotherValue = 4
+
+switch anotherValue {
+case 0..<20:
+    "\(anotherValue) is between 0 and 19"
+    fallthrough
+case 10..<20:
+    "\(anotherValue) is between 10 and 19"
+default:
+    "default branch"
+}
+
+let x = 8
+switch x {
+case 1...4:
+    "I am below 4"
+case 5...7:
+    "I am in between 5 and 7"
+default:
+    "Huh?"
+}
 
 
 
