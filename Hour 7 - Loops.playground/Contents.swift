@@ -29,10 +29,36 @@ repeat {
 
 "The number of times the dice was rolled is \(timesRolled) times"
 
+var result = 0
 
+for var count = 0; count <= 10; ++count {
+    result += count
+}
 
+print(result)
 
+let daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+for var i = 0; i < daysOfTheWeek.count; ++i {
+    print(daysOfTheWeek)
+}
 
+var items = ["Hi", " how", " are", " you", " doing?"]
+for item in items {
+    print(item)
+}
+
+for counting in -2...2 {
+    print(counting)
+}
+
+let myWord = "Supercalifragilisticexpialidocious"
+var numberOfEsFound = 0
+for eachWord in myWord.characters {
+    if eachWord == "e" {
+        ++numberOfEsFound
+    }
+}
+print(numberOfEsFound)
 
 
 
