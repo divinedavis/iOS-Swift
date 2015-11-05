@@ -60,7 +60,20 @@ for eachWord in myWord.characters {
 }
 print(numberOfEsFound)
 
+let bears = ["Panda bear", "Mama bear", "Baby bear"]
 
+for bear in bears {
+    switch bear {
+        case "Panda bear":
+        print("This is a panda bear")
+        case "Mama bear":
+        print("This is moma bear")
+        case "Baby bear":
+        print("This is a baby bear")
+    default:
+        print("Non")
+    }
+}
 
 
 
