@@ -75,7 +75,11 @@ for bear in bears {
     }
 }
 
+let retinaiPhonesAndYears = ["iPhone 4": 2010, "iPhone 4S": 2011, "iPhone 5": 2012, "iPhone 5S": 2013, "iPhone 6": 2014, "iPhone 6S": 2015]
 
+for (iPhone, year) in retinaiPhonesAndYears {
+    print("The \(iPhone) was released \(year)")
+}
 
 
 
