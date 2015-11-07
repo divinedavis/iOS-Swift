@@ -96,6 +96,53 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         burkinaFaso.title = "Burkin Faso, Africa"
         burkinaFaso.subtitle = "Top News: "
         
+        burundi.coordinate = CLLocationCoordinate2D(latitude: 3.5000, longitude: 30.0000)
+        burundi.title = "Burundi, Africa"
+        burundi.subtitle = "Top News: "
+        
+        caboVerde.coordinate = CLLocationCoordinate2D(latitude: 15.1111, longitude: 23.6167)
+        caboVerde.title = "Cabo Verde, Africa"
+        caboVerde.subtitle = "Top News: "
+        
+        cameroon.coordinate = CLLocationCoordinate2D(latitude: 3.8667, longitude: 11.5167)
+        cameroon.title = "Cameroon, Africa"
+        cameroon.subtitle = "Top News: "
+        
+        centralAfricanRepublic.coordinate = CLLocationCoordinate2D(latitude: 4.3667, longitude: 18.5833)
+        centralAfricanRepublic.title = "Central Africa Republic, Africa"
+        centralAfricanRepublic.subtitle = "Top News: "
+        
+        democraticRepublicOfTheCongo.coordinate = CLLocationCoordinate2D(latitude: 28.8800, longitude: 23.6560)
+        democraticRepublicOfTheCongo.title = "Democratic Republic of the Congo, Africa"
+        democraticRepublicOfTheCongo.subtitle = "Top News: "
+        
+        cotedIvoire.coordinate = CLLocationCoordinate2D(latitude: 6.8500, longitude: 5.3000)
+        cotedIvoire.title = "Coted D'ivoire, Africa"
+        cotedIvoire.subtitle = "Top News: "
+        
+        benin.coordinate = CLLocationCoordinate2D(latitude: 6.4667, longitude: 2.6000)
+        benin.title = "Benin, Africa"
+        benin.subtitle = "Top News: "
+        
+        botswana.coordinate = CLLocationCoordinate2D(latitude: 24.6583, longitude: 25.9083)
+        botswana.title = "Botswana, Africa"
+        botswana.subtitle = "Top News: "
+        
+        burkinaFaso.coordinate = CLLocationCoordinate2D(latitude: 12.3333, longitude: 1.6667)
+        burkinaFaso.title = "Burkin Faso, Africa"
+        burkinaFaso.subtitle = "Top News: "
+        
+        burundi.coordinate = CLLocationCoordinate2D(latitude: 3.5000, longitude: 30.0000)
+        burundi.title = "Burundi, Africa"
+        burundi.subtitle = "Top News: "
+        
+        caboVerde.coordinate = CLLocationCoordinate2D(latitude: 15.1111, longitude: 23.6167)
+        caboVerde.title = "Cabo Verde, Africa"
+        caboVerde.subtitle = "Top News: "
+        
+        cameroon.coordinate = CLLocationCoordinate2D(latitude: 3.8667, longitude: 11.5167)
+        cameroon.title = "Cameroon, Africa"
+        cameroon.subtitle = "Top News: "
         
         
         
