@@ -24,15 +24,24 @@ func printWord(word : String, numberOfTimes : Int) {
 
 printWord("world", numberOfTimes: 8)
 
-func addVariadicNumbers(numbers : Int...) {
-    var result = 0
+func addVariadicNumbers(numbers : Int...) -> Int {
+    var results = 0
     for eachNum in numbers {
-        result += eachNum
+        results += eachNum
     }
-    print("Sum total of numbers: \(result)")
+    return results
 }
 
+let sum = addVariadicNumbers(2)
 addVariadicNumbers(1, 2, 3, 4, 8)
+
+func meanMedianMode(numbers : Int...) -> (mean : Double, median : Int, mode : Int) {
+    var sum = 0.0
+    for number in numbers {
+        sum += Double(number)
+    }
+    let mean = sum / Double(numbers.count)
+}
 
 
 
