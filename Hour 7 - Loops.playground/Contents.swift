@@ -29,13 +29,13 @@ repeat {
 
 "The number of times the dice was rolled is \(timesRolled) times"
 
-var result = 0
+//var result = 0
+//
+//for var count = 0; count <= 10; ++count {
+//    result += count
+//}
 
-for var count = 0; count <= 10; ++count {
-    result += count
-}
-
-print(result)
+//print(result)
 
 let daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 for var i = 0; i < daysOfTheWeek.count; ++i {
@@ -79,7 +79,62 @@ let retinaiPhonesAndYears = ["iPhone 4": 2010, "iPhone 4S": 2011, "iPhone 5": 20
 
 for (iPhone, year) in retinaiPhonesAndYears {
     print("The \(iPhone) was released \(year)")
+
 }
+
+let beatles = ["Paul", "John", "Ringo", "George"]
+var ringoIndex = 0
+for (index, name) in beatles.enumerate() {
+    if name == "Ringo" {
+        ringoIndex = index
+    }
+}
+print("Ringo is at index \(ringoIndex) in the beatles array.")
+
+var results = [Int]()
+
+for count in 1...100 {
+    let remainder = count % 7
+    switch remainder {
+    case 1...6:
+        continue
+    default:
+        results.append(count)
+    }
+    print("\(count) is divisible by 7")
+}
+
+let words = "Supercalifragilisticexpialidocious"
+for eachChar in words.characters {
+    switch eachChar {
+        case "x":
+        print("\(words) contains an 'x'")
+        break
+    default:
+        continue
+    }
+}
+
+for var count = 20; count <= 100; count += 20 {
+    print("first count is \(count)")
+}
+
+for count in 1...5 {
+    switch count {
+    case 4:
+        print("hi")
+        continue
+    default:
+        print("non")
+    }
+}
+
+
+
+
+
+
+
 
 
 

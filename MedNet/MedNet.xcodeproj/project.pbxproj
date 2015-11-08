@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16A282761BEEC00800BA0174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A282751BEEC00800BA0174 /* AppDelegate.swift */; };
+		16A282781BEEC00800BA0174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A282771BEEC00800BA0174 /* ViewController.swift */; };
+		16A2827B1BEEC00800BA0174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A282791BEEC00800BA0174 /* Main.storyboard */; };
+		16A2827D1BEEC00800BA0174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A2827C1BEEC00800BA0174 /* Assets.xcassets */; };
+		16A282801BEEC00800BA0174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A2827E1BEEC00800BA0174 /* LaunchScreen.storyboard */; };
+		16A2828B1BEEC00800BA0174 /* MedNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A2828A1BEEC00800BA0174 /* MedNetTests.swift */; };
+		16A282961BEEC00800BA0174 /* MedNetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A282951BEEC00800BA0174 /* MedNetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16A282871BEEC00800BA0174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A2826A1BEEC00800BA0174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A282711BEEC00800BA0174;
+			remoteInfo = MedNet;
+		};
+		16A282921BEEC00800BA0174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A2826A1BEEC00800BA0174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A282711BEEC00800BA0174;
+			remoteInfo = MedNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16A282721BEEC00800BA0174 /* MedNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A282751BEEC00800BA0174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16A282771BEEC00800BA0174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16A2827A1BEEC00800BA0174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16A2827C1BEEC00800BA0174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16A2827F1BEEC00800BA0174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16A282811BEEC00800BA0174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A282861BEEC00800BA0174 /* MedNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A2828A1BEEC00800BA0174 /* MedNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedNetTests.swift; sourceTree = "<group>"; };
+		16A2828C1BEEC00800BA0174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A282911BEEC00800BA0174 /* MedNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A282951BEEC00800BA0174 /* MedNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedNetUITests.swift; sourceTree = "<group>"; };
+		16A282971BEEC00800BA0174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16A2826F1BEEC00800BA0174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A282831BEEC00800BA0174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A2828E1BEEC00800BA0174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A282691BEEC00800BA0174 = {
+			isa = PBXGroup;
+			children = (
+				16A282741BEEC00800BA0174 /* MedNet */,
+				16A282891BEEC00800BA0174 /* MedNetTests */,
+				16A282941BEEC00800BA0174 /* MedNetUITests */,
+				16A282731BEEC00800BA0174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16A282731BEEC00800BA0174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16A282721BEEC00800BA0174 /* MedNet.app */,
+				16A282861BEEC00800BA0174 /* MedNetTests.xctest */,
+				16A282911BEEC00800BA0174 /* MedNetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16A282741BEEC00800BA0174 /* MedNet */ = {
+			isa = PBXGroup;
+			children = (
+				16A282751BEEC00800BA0174 /* AppDelegate.swift */,
+				16A282771BEEC00800BA0174 /* ViewController.swift */,
+				16A282791BEEC00800BA0174 /* Main.storyboard */,
+				16A2827C1BEEC00800BA0174 /* Assets.xcassets */,
+				16A2827E1BEEC00800BA0174 /* LaunchScreen.storyboard */,
+				16A282811BEEC00800BA0174 /* Info.plist */,
+			);
+			path = MedNet;
+			sourceTree = "<group>";
+		};
+		16A282891BEEC00800BA0174 /* MedNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				16A2828A1BEEC00800BA0174 /* MedNetTests.swift */,
+				16A2828C1BEEC00800BA0174 /* Info.plist */,
+			);
+			path = MedNetTests;
+			sourceTree = "<group>";
+		};
+		16A282941BEEC00800BA0174 /* MedNetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16A282951BEEC00800BA0174 /* MedNetUITests.swift */,
+				16A282971BEEC00800BA0174 /* Info.plist */,
+			);
+			path = MedNetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16A282711BEEC00800BA0174 /* MedNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A2829A1BEEC00800BA0174 /* Build configuration list for PBXNativeTarget "MedNet" */;
+			buildPhases = (
+				16A2826E1BEEC00800BA0174 /* Sources */,
+				16A2826F1BEEC00800BA0174 /* Frameworks */,
+				16A282701BEEC00800BA0174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedNet;
+			productName = MedNet;
+			productReference = 16A282721BEEC00800BA0174 /* MedNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16A282851BEEC00800BA0174 /* MedNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A2829D1BEEC00800BA0174 /* Build configuration list for PBXNativeTarget "MedNetTests" */;
+			buildPhases = (
+				16A282821BEEC00800BA0174 /* Sources */,
+				16A282831BEEC00800BA0174 /* Frameworks */,
+				16A282841BEEC00800BA0174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A282881BEEC00800BA0174 /* PBXTargetDependency */,
+			);
+			name = MedNetTests;
+			productName = MedNetTests;
+			productReference = 16A282861BEEC00800BA0174 /* MedNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16A282901BEEC00800BA0174 /* MedNetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A282A01BEEC00800BA0174 /* Build configuration list for PBXNativeTarget "MedNetUITests" */;
+			buildPhases = (
+				16A2828D1BEEC00800BA0174 /* Sources */,
+				16A2828E1BEEC00800BA0174 /* Frameworks */,
+				16A2828F1BEEC00800BA0174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A282931BEEC00800BA0174 /* PBXTargetDependency */,
+			);
+			name = MedNetUITests;
+			productName = MedNetUITests;
+			productReference = 16A282911BEEC00800BA0174 /* MedNetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16A2826A1BEEC00800BA0174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = HackDuke;
+				TargetAttributes = {
+					16A282711BEEC00800BA0174 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					16A282851BEEC00800BA0174 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 16A282711BEEC00800BA0174;
+					};
+					16A282901BEEC00800BA0174 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 16A282711BEEC00800BA0174;
+					};
+				};
+			};
+			buildConfigurationList = 16A2826D1BEEC00800BA0174 /* Build configuration list for PBXProject "MedNet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16A282691BEEC00800BA0174;
+			productRefGroup = 16A282731BEEC00800BA0174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16A282711BEEC00800BA0174 /* MedNet */,
+				16A282851BEEC00800BA0174 /* MedNetTests */,
+				16A282901BEEC00800BA0174 /* MedNetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16A282701BEEC00800BA0174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A282801BEEC00800BA0174 /* LaunchScreen.storyboard in Resources */,
+				16A2827D1BEEC00800BA0174 /* Assets.xcassets in Resources */,
+				16A2827B1BEEC00800BA0174 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A282841BEEC00800BA0174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A2828F1BEEC00800BA0174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16A2826E1BEEC00800BA0174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A282781BEEC00800BA0174 /* ViewController.swift in Sources */,
+				16A282761BEEC00800BA0174 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A282821BEEC00800BA0174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A2828B1BEEC00800BA0174 /* MedNetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A2828D1BEEC00800BA0174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A282961BEEC00800BA0174 /* MedNetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16A282881BEEC00800BA0174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A282711BEEC00800BA0174 /* MedNet */;
+			targetProxy = 16A282871BEEC00800BA0174 /* PBXContainerItemProxy */;
+		};
+		16A282931BEEC00800BA0174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A282711BEEC00800BA0174 /* MedNet */;
+			targetProxy = 16A282921BEEC00800BA0174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16A282791BEEC00800BA0174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A2827A1BEEC00800BA0174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16A2827E1BEEC00800BA0174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A2827F1BEEC00800BA0174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16A282981BEEC00800BA0174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16A282991BEEC00800BA0174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16A2829B1BEEC00800BA0174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.MedNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16A2829C1BEEC00800BA0174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MedNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.MedNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16A2829E1BEEC00800BA0174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.MedNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedNet.app/MedNet";
+			};
+			name = Debug;
+		};
+		16A2829F1BEEC00800BA0174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.MedNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedNet.app/MedNet";
+			};
+			name = Release;
+		};
+		16A282A11BEEC00800BA0174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MedNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.MedNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MedNet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		16A282A21BEEC00800BA0174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MedNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.MedNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MedNet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16A2826D1BEEC00800BA0174 /* Build configuration list for PBXProject "MedNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A282981BEEC00800BA0174 /* Debug */,
+				16A282991BEEC00800BA0174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A2829A1BEEC00800BA0174 /* Build configuration list for PBXNativeTarget "MedNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A2829B1BEEC00800BA0174 /* Debug */,
+				16A2829C1BEEC00800BA0174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16A2829D1BEEC00800BA0174 /* Build configuration list for PBXNativeTarget "MedNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A2829E1BEEC00800BA0174 /* Debug */,
+				16A2829F1BEEC00800BA0174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16A282A01BEEC00800BA0174 /* Build configuration list for PBXNativeTarget "MedNetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A282A11BEEC00800BA0174 /* Debug */,
+				16A282A21BEEC00800BA0174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16A2826A1BEEC00800BA0174 /* Project object */;
+}
