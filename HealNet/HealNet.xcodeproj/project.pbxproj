@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16A282B01BEF30B000BA0174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A282AF1BEF30B000BA0174 /* AppDelegate.swift */; };
+		16A282B21BEF30B000BA0174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A282B11BEF30B000BA0174 /* ViewController.swift */; };
+		16A282B51BEF30B000BA0174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A282B31BEF30B000BA0174 /* Main.storyboard */; };
+		16A282B71BEF30B000BA0174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A282B61BEF30B000BA0174 /* Assets.xcassets */; };
+		16A282BA1BEF30B000BA0174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A282B81BEF30B000BA0174 /* LaunchScreen.storyboard */; };
+		16A282C51BEF30B000BA0174 /* HealNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A282C41BEF30B000BA0174 /* HealNetTests.swift */; };
+		16A282D01BEF30B000BA0174 /* HealNetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A282CF1BEF30B000BA0174 /* HealNetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16A282C11BEF30B000BA0174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A282A41BEF30B000BA0174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A282AB1BEF30B000BA0174;
+			remoteInfo = HealNet;
+		};
+		16A282CC1BEF30B000BA0174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A282A41BEF30B000BA0174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A282AB1BEF30B000BA0174;
+			remoteInfo = HealNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16A282AC1BEF30B000BA0174 /* HealNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A282AF1BEF30B000BA0174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16A282B11BEF30B000BA0174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16A282B41BEF30B000BA0174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16A282B61BEF30B000BA0174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16A282B91BEF30B000BA0174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16A282BB1BEF30B000BA0174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A282C01BEF30B000BA0174 /* HealNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A282C41BEF30B000BA0174 /* HealNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealNetTests.swift; sourceTree = "<group>"; };
+		16A282C61BEF30B000BA0174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A282CB1BEF30B000BA0174 /* HealNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A282CF1BEF30B000BA0174 /* HealNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealNetUITests.swift; sourceTree = "<group>"; };
+		16A282D11BEF30B000BA0174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16A282A91BEF30B000BA0174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A282BD1BEF30B000BA0174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A282C81BEF30B000BA0174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A282A31BEF30B000BA0174 = {
+			isa = PBXGroup;
+			children = (
+				16A282AE1BEF30B000BA0174 /* HealNet */,
+				16A282C31BEF30B000BA0174 /* HealNetTests */,
+				16A282CE1BEF30B000BA0174 /* HealNetUITests */,
+				16A282AD1BEF30B000BA0174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16A282AD1BEF30B000BA0174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16A282AC1BEF30B000BA0174 /* HealNet.app */,
+				16A282C01BEF30B000BA0174 /* HealNetTests.xctest */,
+				16A282CB1BEF30B000BA0174 /* HealNetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16A282AE1BEF30B000BA0174 /* HealNet */ = {
+			isa = PBXGroup;
+			children = (
+				16A282AF1BEF30B000BA0174 /* AppDelegate.swift */,
+				16A282B11BEF30B000BA0174 /* ViewController.swift */,
+				16A282B31BEF30B000BA0174 /* Main.storyboard */,
+				16A282B61BEF30B000BA0174 /* Assets.xcassets */,
+				16A282B81BEF30B000BA0174 /* LaunchScreen.storyboard */,
+				16A282BB1BEF30B000BA0174 /* Info.plist */,
+			);
+			path = HealNet;
+			sourceTree = "<group>";
+		};
+		16A282C31BEF30B000BA0174 /* HealNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				16A282C41BEF30B000BA0174 /* HealNetTests.swift */,
+				16A282C61BEF30B000BA0174 /* Info.plist */,
+			);
+			path = HealNetTests;
+			sourceTree = "<group>";
+		};
+		16A282CE1BEF30B000BA0174 /* HealNetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16A282CF1BEF30B000BA0174 /* HealNetUITests.swift */,
+				16A282D11BEF30B000BA0174 /* Info.plist */,
+			);
+			path = HealNetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16A282AB1BEF30B000BA0174 /* HealNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A282D41BEF30B000BA0174 /* Build configuration list for PBXNativeTarget "HealNet" */;
+			buildPhases = (
+				16A282A81BEF30B000BA0174 /* Sources */,
+				16A282A91BEF30B000BA0174 /* Frameworks */,
+				16A282AA1BEF30B000BA0174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealNet;
+			productName = HealNet;
+			productReference = 16A282AC1BEF30B000BA0174 /* HealNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16A282BF1BEF30B000BA0174 /* HealNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A282D71BEF30B000BA0174 /* Build configuration list for PBXNativeTarget "HealNetTests" */;
+			buildPhases = (
+				16A282BC1BEF30B000BA0174 /* Sources */,
+				16A282BD1BEF30B000BA0174 /* Frameworks */,
+				16A282BE1BEF30B000BA0174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A282C21BEF30B000BA0174 /* PBXTargetDependency */,
+			);
+			name = HealNetTests;
+			productName = HealNetTests;
+			productReference = 16A282C01BEF30B000BA0174 /* HealNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16A282CA1BEF30B000BA0174 /* HealNetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A282DA1BEF30B000BA0174 /* Build configuration list for PBXNativeTarget "HealNetUITests" */;
+			buildPhases = (
+				16A282C71BEF30B000BA0174 /* Sources */,
+				16A282C81BEF30B000BA0174 /* Frameworks */,
+				16A282C91BEF30B000BA0174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A282CD1BEF30B000BA0174 /* PBXTargetDependency */,
+			);
+			name = HealNetUITests;
+			productName = HealNetUITests;
+			productReference = 16A282CB1BEF30B000BA0174 /* HealNetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16A282A41BEF30B000BA0174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = HackDuke;
+				TargetAttributes = {
+					16A282AB1BEF30B000BA0174 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					16A282BF1BEF30B000BA0174 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 16A282AB1BEF30B000BA0174;
+					};
+					16A282CA1BEF30B000BA0174 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 16A282AB1BEF30B000BA0174;
+					};
+				};
+			};
+			buildConfigurationList = 16A282A71BEF30B000BA0174 /* Build configuration list for PBXProject "HealNet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16A282A31BEF30B000BA0174;
+			productRefGroup = 16A282AD1BEF30B000BA0174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16A282AB1BEF30B000BA0174 /* HealNet */,
+				16A282BF1BEF30B000BA0174 /* HealNetTests */,
+				16A282CA1BEF30B000BA0174 /* HealNetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16A282AA1BEF30B000BA0174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A282BA1BEF30B000BA0174 /* LaunchScreen.storyboard in Resources */,
+				16A282B71BEF30B000BA0174 /* Assets.xcassets in Resources */,
+				16A282B51BEF30B000BA0174 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A282BE1BEF30B000BA0174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A282C91BEF30B000BA0174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16A282A81BEF30B000BA0174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A282B21BEF30B000BA0174 /* ViewController.swift in Sources */,
+				16A282B01BEF30B000BA0174 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A282BC1BEF30B000BA0174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A282C51BEF30B000BA0174 /* HealNetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A282C71BEF30B000BA0174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A282D01BEF30B000BA0174 /* HealNetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16A282C21BEF30B000BA0174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A282AB1BEF30B000BA0174 /* HealNet */;
+			targetProxy = 16A282C11BEF30B000BA0174 /* PBXContainerItemProxy */;
+		};
+		16A282CD1BEF30B000BA0174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A282AB1BEF30B000BA0174 /* HealNet */;
+			targetProxy = 16A282CC1BEF30B000BA0174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16A282B31BEF30B000BA0174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A282B41BEF30B000BA0174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16A282B81BEF30B000BA0174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A282B91BEF30B000BA0174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16A282D21BEF30B000BA0174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16A282D31BEF30B000BA0174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16A282D51BEF30B000BA0174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.HealNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16A282D61BEF30B000BA0174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.HealNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16A282D81BEF30B000BA0174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HealNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.HealNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealNet.app/HealNet";
+			};
+			name = Debug;
+		};
+		16A282D91BEF30B000BA0174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HealNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.HealNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealNet.app/HealNet";
+			};
+			name = Release;
+		};
+		16A282DB1BEF30B000BA0174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HealNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.HealNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HealNet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		16A282DC1BEF30B000BA0174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HealNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.HealNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HealNet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16A282A71BEF30B000BA0174 /* Build configuration list for PBXProject "HealNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A282D21BEF30B000BA0174 /* Debug */,
+				16A282D31BEF30B000BA0174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A282D41BEF30B000BA0174 /* Build configuration list for PBXNativeTarget "HealNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A282D51BEF30B000BA0174 /* Debug */,
+				16A282D61BEF30B000BA0174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16A282D71BEF30B000BA0174 /* Build configuration list for PBXNativeTarget "HealNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A282D81BEF30B000BA0174 /* Debug */,
+				16A282D91BEF30B000BA0174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16A282DA1BEF30B000BA0174 /* Build configuration list for PBXNativeTarget "HealNetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A282DB1BEF30B000BA0174 /* Debug */,
+				16A282DC1BEF30B000BA0174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16A282A41BEF30B000BA0174 /* Project object */;
+}
