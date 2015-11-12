@@ -36,14 +36,22 @@ let sum = addVariadicNumbers(2)
 addVariadicNumbers(1, 2, 3, 4, 8)
 
 func meanMedianMode(numbers : Int...) -> (mean : Double, median : Int, mode : Int) {
+    
     //FIND MEAN
+    
+    //sum for the total of the elements
     var sum = 0.0
+    //loop through the variadic parameter
     for number in numbers {
+        //adds the numbers looped to the sum
         sum += Double(number)
     }
+    //mean is the sum divided by the number of elements in the variadic parameter
     let mean = sum / Double(numbers.count)
     
-    //find median
+    //FIND MEDIAN
+    
+    
     let sortedNumbers = numbers.sort({ num1, num2 in return num1 < num2})
     let midIndex = numbers.count / 2
     let median = sortedNumbers[midIndex]
@@ -73,6 +81,9 @@ func meanMedianMode(numbers : Int...) -> (mean : Double, median : Int, mode : In
 
 let mmm = meanMedianMode(1,2,6,7,7)
 
+mmm.mean
+mmm.mode
+mmm.mean
 
 
 
