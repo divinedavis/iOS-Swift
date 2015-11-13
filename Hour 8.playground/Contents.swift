@@ -32,8 +32,10 @@ func addVariadicNumbers(numbers : Int...) -> Int {
     return results
 }
 
-let sum = addVariadicNumbers(2)
+let sum = addVariadicNumbers(2,4)
+sum
 addVariadicNumbers(1, 2, 3, 4, 8)
+addVariadicNumbers(sum + 1,2,3,4)
 
 func meanMedianMode(numbers : Int...) -> (mean : Double, median : Int, mode : Int) {
     
