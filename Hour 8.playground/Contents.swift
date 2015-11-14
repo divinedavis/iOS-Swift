@@ -37,58 +37,55 @@ sum
 addVariadicNumbers(1, 2, 3, 4, 8)
 addVariadicNumbers(sum + 1,2,3,4)
 
-func meanMedianMode(numbers : Int...) -> (mean : Double, median : Int, mode : Int) {
+
     
-    //FIND MEAN
-    
-    //sum for the total of the elements
-    var sum = 0.0
-    //loop through the variadic parameter
-    for number in numbers {
-        //adds the numbers looped to the sum
-        sum += Double(number)
-    }
-    //mean is the sum divided by the number of elements in the variadic parameter
-    let mean = sum / Double(numbers.count)
-    
-    //FIND MEDIAN
-    
-    
-    let sortedNumbers = numbers.sort({ num1, num2 in return num1 < num2})
-    let midIndex = numbers.count / 2
-    let median = sortedNumbers[midIndex]
-    
-    //find mode
-    var occurrences : [Int : Int] = [:]
-    
-    for number in numbers {
-        if var value = occurrences[number] {
-            occurrences[number] = ++value
-        } else {
-            occurrences[number] = 1
-        }
-    }
-    
-    var highestPair : (key : Int, value : Int) = (0,0)
-    for (key, value) in occurrences {
-        highestPair = (value > highestPair.value) ? (key, value) : highestPair
-    }
-    
-    let mode = highestPair.key
-    
-    //return tuple of results
-    return (mean, median, mode)
-    
+
+// External parameter names
+func multiply(thisNumber num1 : Int, byAnotherNumber num2 : Int) -> Int {
+    return num1 * num2
+}
+let result = multiply(thisNumber: 4, byAnotherNumber: 8)
+
+// More readable
+func multiplyThisNumber(num1 : Int, byAnotherNumber num2 : Int) -> Int {
+    return num1 * num2
 }
 
-let mmm = meanMedianMode(1,2,6,7,7)
+multiplyThisNumber(3, byAnotherNumber: 99)
 
-mmm.mean
-mmm.mode
-mmm.mean
+func append(lastName lastName : String, toFirstName firstName : String) -> String {
+    return firstName + " " + lastName
+}
 
+let fullName = append(lastName: "Divine", toFirstName: "Davis")
 
+func addExercise(exercise : String = "Hi", withDuration duration : Int = 20) {
+    print("You did \(exercise) for \(duration)")
+}
 
+addExercise("Football", withDuration: 200)
+
+func reverseWords(inout firstWord : String, inout secondWord : String) {
+    var tempWord = firstWord
+    firstWord = secondWord
+    secondWord = tempWord
+}
+var first = "I am first"
+var second = "I am second"
+reverseWords(&first, secondWord: &second)
+print(first)
+print(second)
+
+func displayCurrentStock(forStock forStock : Int, andTheStock andTheStock : Int = 878) {
+    
+    print("Your stock for APPL is \(forStock), and your stock for YAHOO is \(andTheStock)")
+}
+
+displayCurrentStock(forStock: 455, andTheStock: 999)
+
+//func someFunc() -> (Int) -> String {
+//    
+//}
 
 
 
