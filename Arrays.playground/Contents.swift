@@ -10,7 +10,7 @@ var flavors : [String]
 
 flavors = ["Vanilla", "Strawberry", "Chocolate"]
 
-println("The first flavor is \(flavors[0])")
+print("The first flavor is \(flavors[0])")
 
 flavors[0]
 
@@ -27,14 +27,14 @@ flavors.removeLast()
 flavors.removeAtIndex(3)
 
 //.count for number of items
-println("The array has \(daysInMonth.count)")
-
-if daysInMonth.isEmpty {
-    println("Theres nothing in the array")
-}
-
-for month in daysInMonth {
-    println(month)
-}
-
+//println("The array has \(daysInMonth.count)")
+//
+//if daysInMonth.isEmpty {
+//    println("Theres nothing in the array")
+//}
+//
+//for month in daysInMonth {
+//    println(month)
+//}
+//
 

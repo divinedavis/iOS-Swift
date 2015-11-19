@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var balance = 200
+    
     //Display additional information to the user
     @IBOutlet weak var detailLabel: UILabel!
     
@@ -25,51 +27,26 @@ class ViewController: UIViewController {
     //Money transfers when you touch the button
     @IBAction func transferButton(sender: AnyObject) {
         
-        moneyLeftLabel.text = "200"
-        
-        let initialBalance = Int(moneyLeftLabel.text!)! - Int(withdrawAmount.text!)!
-        
-        let transferredAmount = Int(withdrawAmount.text!)!
-        
-        moneyLeftLabel.text = String(initialBalance)
-        
-        transferLabel.text = String(transferredAmount)
-        
-        if Int(moneyLeftLabel.text!) < 0 {
-            
-            detailLabel.text = "You don't have enough funds, you broke"
-        }
         
     }
     
     @IBAction func withdrawButton(sender: AnyObject) {
         
-        detailLabel.text = ""
+        var withdraw = Int(withdrawAmount.text!)
         
-        let withdrawn = Int(withdrawAmount.text!)!
-        
-        let amountLeft = 200 - withdrawn
-    
-        if withdrawn > 200 {
+        if withdraw > balance {
             
-            detailLabel.text = "You don't have enough funds"
+            balance = balance - withdraw!
             
-            moneyLeftLabel.text = "200"
-        } else {
-            moneyLeftLabel.text = String(amountLeft)
+            print(balance)
         }
-    }
+        
+}
     
 
     @IBAction func depositButton(sender: AnyObject) {
         
-        detailLabel.text = ""
-        
-        let deposit = Int(withdrawAmount.text!)!
-        let addedAmount = deposit + 200
-        moneyLeftLabel.text = String(addedAmount)
-        
-    }
+           }
    
     
     override func viewDidLoad() {
