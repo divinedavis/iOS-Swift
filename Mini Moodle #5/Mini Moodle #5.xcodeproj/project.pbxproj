@@ -490,6 +490,7 @@
 				16B178A81BFE48A3000DA22E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16B178A91BFE48A3000DA22E /* Build configuration list for PBXNativeTarget "Mini Moodle #5Tests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +499,7 @@
 				16B178AB1BFE48A3000DA22E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16B178AC1BFE48A3000DA22E /* Build configuration list for PBXNativeTarget "Mini Moodle #5UITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +508,7 @@
 				16B178AE1BFE48A3000DA22E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

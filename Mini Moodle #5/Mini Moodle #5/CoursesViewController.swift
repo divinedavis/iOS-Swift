@@ -10,10 +10,20 @@ import UIKit
 
 class CoursesViewController: UIViewController {
 
+    @IBOutlet weak var welcomeLabel: UILabel!
+    
+    
+    
+    
+    
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+       
+       welcomeLabel.text = "HI"
+       
     }
     
 
