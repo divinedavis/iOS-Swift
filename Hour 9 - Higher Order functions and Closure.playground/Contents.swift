@@ -125,6 +125,12 @@ func mean8(numbers : [Int]) -> Double {
     return Double(numbers.reduce(0) {$0 + $1})/Double(numbers.count)
 }
 
+let a = [2, 4, 5, 4, 8, 0]
+let b = a.sort(<)
+
+func median(numbers : [Int]) -> Int {
+    return numbers.sort(<) [numbers.count / 2]
+}
 
 
 
