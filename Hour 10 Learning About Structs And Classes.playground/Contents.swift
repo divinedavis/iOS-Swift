@@ -7,11 +7,15 @@ struct Point {
     var x : Double
     var y : Double
     
-    func distanceTo(point point : Point) -> Double {
-        let a = abs(self.x - point.x)
-        let b = abs(self.y - point.y)
-        let c = sqrt(a * a + b * b)
-        return c
+//    func distanceTo(point point : Point) -> Double {
+//        let a = abs(self.x - point.x)
+//        let b = abs(self.y - point.y)
+//        let c = sqrt(a * a + b * b)
+//        return c
+//    }
+    mutating func moveToZero() {
+        self.x = 0.0
+        self.y = 0.0
     }
     
 //    func halfDistanceTo(point point : Point) -> Double {
@@ -21,7 +25,7 @@ struct Point {
 
 let pointA = Point(x: 1.0, y: 2.0)
 let pointB = Point(x: 4.0, y: 6.0)
-let distance = pointA.distanceTo(point : pointB)
+//let distance = pointA.distanceTo(point : pointB)
 //let halfDistance = pointA.halfDistanceTo(point: pointB)
 
 class Circle {
@@ -55,6 +59,28 @@ newCircleCopy.radius = 7.5
 newCircle
 newCircleCopy
 
+
+var point = Point(x: 3.5, y: 6.0)
+
+let circleOne = Circle()
+circleOne.radius = 5.0
+
+let circleTwo = Circle()
+circleTwo.radius = 5.0
+
+let circleThree = circleOne
+
+if circleOne === circleTwo {
+    "circleOne is identical to circleTwo"
+} else {
+    "circleOne is not identical to circleTwo"
+}
+
+if circleOne !== circleThree {
+    "circleOne is not identical to circleThree"
+} else {
+    "circleOne is identical to circleThree"
+}
 
 
 
