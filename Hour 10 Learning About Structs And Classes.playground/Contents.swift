@@ -82,7 +82,30 @@ if circleOne !== circleThree {
     "circleOne is identical to circleThree"
 }
 
+struct PersonStruct {
+    var firstName : String
+    var lastName : String
+    var age : Int
+    
+}
 
+PersonStruct(firstName: "Divine", lastName: "Davis", age: 23)
+
+var newPerson = PersonStruct(firstName: "Divine", lastName: "Davis", age: 23)
+newPerson.lastName = "Carlo"
+
+"\(newPerson.lastName)"
+
+class PersonClass {
+    
+    var firstName : String = ""
+    var lastName : String = ""
+    var age : Int = 0
+}
+
+var newPersonClass = PersonClass()
+
+newPersonClass.lastName = "Carlo"
 
 
 
