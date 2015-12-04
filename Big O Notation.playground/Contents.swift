@@ -3,11 +3,12 @@
 import UIKit
 
 //array of sorted integer
-var numberList : Array<Int> = [8, 2, 10, 9, 11, 7, 3, 4]
+var numberList = [8, 2, 10, 9, 11, 7, 3, 4]
 
-func insertionSort(var numberList: Array<Int>) -> Array<Int> {
+func insertionSort(var numberList: [Int]) -> [Int] {
     
     var y, key : Int
+    
     for x in 0..<numberList.count {
         
         //obtain a key to be evaluated 

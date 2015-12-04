@@ -1,6 +1,7 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
+import Foundation
 
 //class MusicalInstrument {
 //    
@@ -43,23 +44,35 @@ class Shape {
 
 class Circle : Shape {
     var radius = 0.0
-    override func area() -> Double {
+    final override func area() -> Double {
         return M_PI * radius * radius
     }
 }
 
-class Sphere: Circle {
+class Sphere : Circle {
     override func description() -> String {
         return super.description() + ". My volume is \(volume())"
     }
     func volume() -> Double {
         return (4.0 * super.area() * radius) / 3.0
     }
+    func surfaceArea() -> Double {
+        return 4.0 * M_PI * radius * radius
+    }
 }
-//
-//let sphere = Sphere()
-//sphere.title = "SPHERE"
-//sphere.radius = 2.0
+
+func printDescriptionForShape(shape : Shape) {
+    print(shape.description())
+}
+
+
+
+let sphere = Sphere()
+sphere.title = "SPHERE"
+sphere.radius = 2.0
+
+printDescriptionForShape(sphere)
+
 //sphere.area()
 //sphere.volume()
 //sphere.description()
@@ -69,7 +82,7 @@ class Sphere: Circle {
 //
 //shape.area()
 //shape.description()
-//
+
 //square.area()
 //square.description()
 //
