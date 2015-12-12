@@ -32,9 +32,12 @@ enum GradesKTo5 {
     case Kindergarten, First, Second, Third, Fourth, Fifth
 }
 
-let studentGrade = GradesKTo5.First
+let firstGrade = GradesKTo5.First
+let secondGrade = GradesKTo5.Second
+let thirdGrade = GradesKTo5.Third
+let fourthGrade = GradesKTo5.Fourth
 
-switch studentGrade {
+switch secondGrade {
     
 case .Kindergarten:
     print("Welcome to Kindergarten")
@@ -48,7 +51,16 @@ case .Fourth:
     print("Welcome to fourth grade")
 case .Fifth:
     print("Welcome to fifth grade")
+    
 }
+
+enum STYOptional<T> {
+    case None
+    case some(T)
+}
+
+
+
 
 
 
