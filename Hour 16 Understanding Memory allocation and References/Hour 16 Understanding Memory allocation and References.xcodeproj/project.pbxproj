@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		167F80541C4FE23C000BCA94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167F80531C4FE23C000BCA94 /* AppDelegate.swift */; };
+		167F80561C4FE23C000BCA94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167F80551C4FE23C000BCA94 /* ViewController.swift */; };
+		167F80591C4FE23C000BCA94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167F80571C4FE23C000BCA94 /* Main.storyboard */; };
+		167F805B1C4FE23C000BCA94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167F805A1C4FE23C000BCA94 /* Assets.xcassets */; };
+		167F805E1C4FE23C000BCA94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167F805C1C4FE23C000BCA94 /* LaunchScreen.storyboard */; };
+		167F80691C4FE23C000BCA94 /* Hour_16_Understanding_Memory_allocation_and_ReferencesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167F80681C4FE23C000BCA94 /* Hour_16_Understanding_Memory_allocation_and_ReferencesTests.swift */; };
+		167F80741C4FE23C000BCA94 /* Hour_16_Understanding_Memory_allocation_and_ReferencesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167F80731C4FE23C000BCA94 /* Hour_16_Understanding_Memory_allocation_and_ReferencesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		167F80651C4FE23C000BCA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167F80481C4FE23C000BCA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167F804F1C4FE23C000BCA94;
+			remoteInfo = "Hour 16 Understanding Memory allocation and References";
+		};
+		167F80701C4FE23C000BCA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167F80481C4FE23C000BCA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167F804F1C4FE23C000BCA94;
+			remoteInfo = "Hour 16 Understanding Memory allocation and References";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		167F80501C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and References.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hour 16 Understanding Memory allocation and References.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167F80531C4FE23C000BCA94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		167F80551C4FE23C000BCA94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		167F80581C4FE23C000BCA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		167F805A1C4FE23C000BCA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		167F805D1C4FE23C000BCA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		167F805F1C4FE23C000BCA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167F80641C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hour 16 Understanding Memory allocation and ReferencesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167F80681C4FE23C000BCA94 /* Hour_16_Understanding_Memory_allocation_and_ReferencesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hour_16_Understanding_Memory_allocation_and_ReferencesTests.swift; sourceTree = "<group>"; };
+		167F806A1C4FE23C000BCA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167F806F1C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hour 16 Understanding Memory allocation and ReferencesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		167F80731C4FE23C000BCA94 /* Hour_16_Understanding_Memory_allocation_and_ReferencesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hour_16_Understanding_Memory_allocation_and_ReferencesUITests.swift; sourceTree = "<group>"; };
+		167F80751C4FE23C000BCA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		167F804D1C4FE23C000BCA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167F80611C4FE23C000BCA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167F806C1C4FE23C000BCA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		167F80471C4FE23C000BCA94 = {
+			isa = PBXGroup;
+			children = (
+				167F80521C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and References */,
+				167F80671C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesTests */,
+				167F80721C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesUITests */,
+				167F80511C4FE23C000BCA94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		167F80511C4FE23C000BCA94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				167F80501C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and References.app */,
+				167F80641C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesTests.xctest */,
+				167F806F1C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		167F80521C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and References */ = {
+			isa = PBXGroup;
+			children = (
+				167F80531C4FE23C000BCA94 /* AppDelegate.swift */,
+				167F80551C4FE23C000BCA94 /* ViewController.swift */,
+				167F80571C4FE23C000BCA94 /* Main.storyboard */,
+				167F805A1C4FE23C000BCA94 /* Assets.xcassets */,
+				167F805C1C4FE23C000BCA94 /* LaunchScreen.storyboard */,
+				167F805F1C4FE23C000BCA94 /* Info.plist */,
+			);
+			path = "Hour 16 Understanding Memory allocation and References";
+			sourceTree = "<group>";
+		};
+		167F80671C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesTests */ = {
+			isa = PBXGroup;
+			children = (
+				167F80681C4FE23C000BCA94 /* Hour_16_Understanding_Memory_allocation_and_ReferencesTests.swift */,
+				167F806A1C4FE23C000BCA94 /* Info.plist */,
+			);
+			path = "Hour 16 Understanding Memory allocation and ReferencesTests";
+			sourceTree = "<group>";
+		};
+		167F80721C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				167F80731C4FE23C000BCA94 /* Hour_16_Understanding_Memory_allocation_and_ReferencesUITests.swift */,
+				167F80751C4FE23C000BCA94 /* Info.plist */,
+			);
+			path = "Hour 16 Understanding Memory allocation and ReferencesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		167F804F1C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and References */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167F80781C4FE23C000BCA94 /* Build configuration list for PBXNativeTarget "Hour 16 Understanding Memory allocation and References" */;
+			buildPhases = (
+				167F804C1C4FE23C000BCA94 /* Sources */,
+				167F804D1C4FE23C000BCA94 /* Frameworks */,
+				167F804E1C4FE23C000BCA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hour 16 Understanding Memory allocation and References";
+			productName = "Hour 16 Understanding Memory allocation and References";
+			productReference = 167F80501C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and References.app */;
+			productType = "com.apple.product-type.application";
+		};
+		167F80631C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167F807B1C4FE23C000BCA94 /* Build configuration list for PBXNativeTarget "Hour 16 Understanding Memory allocation and ReferencesTests" */;
+			buildPhases = (
+				167F80601C4FE23C000BCA94 /* Sources */,
+				167F80611C4FE23C000BCA94 /* Frameworks */,
+				167F80621C4FE23C000BCA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167F80661C4FE23C000BCA94 /* PBXTargetDependency */,
+			);
+			name = "Hour 16 Understanding Memory allocation and ReferencesTests";
+			productName = "Hour 16 Understanding Memory allocation and ReferencesTests";
+			productReference = 167F80641C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		167F806E1C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167F807E1C4FE23C000BCA94 /* Build configuration list for PBXNativeTarget "Hour 16 Understanding Memory allocation and ReferencesUITests" */;
+			buildPhases = (
+				167F806B1C4FE23C000BCA94 /* Sources */,
+				167F806C1C4FE23C000BCA94 /* Frameworks */,
+				167F806D1C4FE23C000BCA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167F80711C4FE23C000BCA94 /* PBXTargetDependency */,
+			);
+			name = "Hour 16 Understanding Memory allocation and ReferencesUITests";
+			productName = "Hour 16 Understanding Memory allocation and ReferencesUITests";
+			productReference = 167F806F1C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		167F80481C4FE23C000BCA94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Divine;
+				TargetAttributes = {
+					167F804F1C4FE23C000BCA94 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					167F80631C4FE23C000BCA94 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 167F804F1C4FE23C000BCA94;
+					};
+					167F806E1C4FE23C000BCA94 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 167F804F1C4FE23C000BCA94;
+					};
+				};
+			};
+			buildConfigurationList = 167F804B1C4FE23C000BCA94 /* Build configuration list for PBXProject "Hour 16 Understanding Memory allocation and References" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 167F80471C4FE23C000BCA94;
+			productRefGroup = 167F80511C4FE23C000BCA94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				167F804F1C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and References */,
+				167F80631C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesTests */,
+				167F806E1C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and ReferencesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		167F804E1C4FE23C000BCA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167F805E1C4FE23C000BCA94 /* LaunchScreen.storyboard in Resources */,
+				167F805B1C4FE23C000BCA94 /* Assets.xcassets in Resources */,
+				167F80591C4FE23C000BCA94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167F80621C4FE23C000BCA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167F806D1C4FE23C000BCA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		167F804C1C4FE23C000BCA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167F80561C4FE23C000BCA94 /* ViewController.swift in Sources */,
+				167F80541C4FE23C000BCA94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167F80601C4FE23C000BCA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167F80691C4FE23C000BCA94 /* Hour_16_Understanding_Memory_allocation_and_ReferencesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167F806B1C4FE23C000BCA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167F80741C4FE23C000BCA94 /* Hour_16_Understanding_Memory_allocation_and_ReferencesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		167F80661C4FE23C000BCA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167F804F1C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and References */;
+			targetProxy = 167F80651C4FE23C000BCA94 /* PBXContainerItemProxy */;
+		};
+		167F80711C4FE23C000BCA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167F804F1C4FE23C000BCA94 /* Hour 16 Understanding Memory allocation and References */;
+			targetProxy = 167F80701C4FE23C000BCA94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		167F80571C4FE23C000BCA94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				167F80581C4FE23C000BCA94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		167F805C1C4FE23C000BCA94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				167F805D1C4FE23C000BCA94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		167F80761C4FE23C000BCA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		167F80771C4FE23C000BCA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		167F80791C4FE23C000BCA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hour 16 Understanding Memory allocation and References/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "divinedavis.Hour-16-Understanding-Memory-allocation-and-References";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		167F807A1C4FE23C000BCA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hour 16 Understanding Memory allocation and References/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "divinedavis.Hour-16-Understanding-Memory-allocation-and-References";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		167F807C1C4FE23C000BCA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hour 16 Understanding Memory allocation and ReferencesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "divinedavis.Hour-16-Understanding-Memory-allocation-and-ReferencesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hour 16 Understanding Memory allocation and References.app/Hour 16 Understanding Memory allocation and References";
+			};
+			name = Debug;
+		};
+		167F807D1C4FE23C000BCA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hour 16 Understanding Memory allocation and ReferencesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "divinedavis.Hour-16-Understanding-Memory-allocation-and-ReferencesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hour 16 Understanding Memory allocation and References.app/Hour 16 Understanding Memory allocation and References";
+			};
+			name = Release;
+		};
+		167F807F1C4FE23C000BCA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hour 16 Understanding Memory allocation and ReferencesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "divinedavis.Hour-16-Understanding-Memory-allocation-and-ReferencesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hour 16 Understanding Memory allocation and References";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		167F80801C4FE23C000BCA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hour 16 Understanding Memory allocation and ReferencesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "divinedavis.Hour-16-Understanding-Memory-allocation-and-ReferencesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hour 16 Understanding Memory allocation and References";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167F804B1C4FE23C000BCA94 /* Build configuration list for PBXProject "Hour 16 Understanding Memory allocation and References" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167F80761C4FE23C000BCA94 /* Debug */,
+				167F80771C4FE23C000BCA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167F80781C4FE23C000BCA94 /* Build configuration list for PBXNativeTarget "Hour 16 Understanding Memory allocation and References" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167F80791C4FE23C000BCA94 /* Debug */,
+				167F807A1C4FE23C000BCA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		167F807B1C4FE23C000BCA94 /* Build configuration list for PBXNativeTarget "Hour 16 Understanding Memory allocation and ReferencesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167F807C1C4FE23C000BCA94 /* Debug */,
+				167F807D1C4FE23C000BCA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		167F807E1C4FE23C000BCA94 /* Build configuration list for PBXNativeTarget "Hour 16 Understanding Memory allocation and ReferencesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167F807F1C4FE23C000BCA94 /* Debug */,
+				167F80801C4FE23C000BCA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 167F80481C4FE23C000BCA94 /* Project object */;
+}
