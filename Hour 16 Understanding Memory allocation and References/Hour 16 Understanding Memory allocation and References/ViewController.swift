@@ -55,6 +55,17 @@ class ViewController: UIViewController {
         
         aPerson = nil
         aPerson = nil
+        
+        
+        }
+    
+    class MathFunction {
+        var firstNum : Int = 0
+        var secondNum : Int = 0
+        var multiply: () -> Int = {
+            return self.firstNum * self.secondNum
+            
+        }
     
     
     }

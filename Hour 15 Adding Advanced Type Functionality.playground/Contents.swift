@@ -205,7 +205,3 @@ displayInstrumentInfo(marchingInstruments[2])
 
 
 
-
-
-
-
