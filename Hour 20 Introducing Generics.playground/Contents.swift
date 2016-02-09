@@ -25,12 +25,34 @@ func areTheseEqual<T : Equatable>(first : T, second : T) -> Bool {
 
 areTheseEqual("hi", second: "hi")
 
-func unique<T: Hashable>(array : [T] -> [T]) {
-    var results = [T : Int]()
-    array.map { results[$0] = 1 }
-    
+//func unique<T: Hashable>(array : [T] -> [T]) {
+//    var results = [T : Int]()
+//
+//
+//}
+
+struct Stack<T> {
+    var items = [T]()
+    mutating func push(item : T) {
+        items.append(item)
+    }
+    mutating func pop() -> T? {
+        if items.isEmpty { return nil }
+        return items.removeLast()
+    }
 }
 
+var myIntStack = Stack<Int>()
+var myStringStack = Stack<String>()
+//
+//struct Set<T : Equatable> {
+//    private var items = [T]()
+//    init(){}
+//    var count : Int { return items.count }
+//    mutating func add(value : T) {
+//        if(items, value) { items.append(value) }
+//    }
+//}
 
 
 
