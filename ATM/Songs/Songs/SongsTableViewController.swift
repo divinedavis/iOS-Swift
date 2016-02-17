@@ -1,15 +1,36 @@
-//
 //  SongsTableViewController.swift
 //  Songs
 //
 //  Created by Divine Davis on 2/9/16.
 //  Copyright © 2016 Divine. All rights reserved.
-//
 
 import UIKit
 
 class SongsTableViewController: UITableViewController {
 
+    var songs = [Song]()
+    
+    private func fetchData() {
+        let url = NSURL(string : "http://itunes.apple.com/search?term=beatles&country=us")
+        let session = NSURLSession.sharedSession()
+        let task = session.dataTaskWithURL(url!, completionHandler : {
+            data, response, error in
+            if let taskError = error {
+                //Handle error
+            } else {
+                let httpResponse = response as! NSHTTPURLResponse
+                switch httpResponse.statusCode {
+                case 200:
+                    print("got 200")
+                    print("data: \(data)")
+                default:
+                    print("request failed: \(httpResponse.statusCode)")
+                }
+            }
+        })
+        task.resume()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,41 +50,23 @@ class SongsTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 3
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 5
+        return songs.count
     }
     
     override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
-        switch section {
-        case 0:
-            return "Section A"
-        case 1:
-            return "Section B"
-        case 2:
-            return "Section C"
-        default:
-            return nil
-        }
+        return "Beatles Songs"
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
-        
-        cell.textLabel?.text = "Row \(indexPath.row)"
-        
-        let detail = self.tableView(tableView, titleForHeaderInSection: indexPath.section) ?? ""
-        
-        cell.detailTextLabel?.text = "In \(detail)"
-        
-
-        // Configure the cell...
 
         return cell
     }
@@ -114,7 +117,7 @@ class SongsTableViewController: UITableViewController {
         
         let detailViewController = segue.destinationViewController as! SongDetailViewController
         
-        detailViewController.song = Song(title: "Trippin' on a hole in a paper heart", artist:  "Sone Temple Pilots", rating:  4.0)
+        
     }
 
 

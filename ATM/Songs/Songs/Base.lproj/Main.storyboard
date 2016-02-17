@@ -18,7 +18,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wex-dY-Gbb" id="Jhe-UZ-v9i">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -53,36 +53,27 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KVG-2A-lOa">
                                 <rect key="frame" x="166" y="109" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNz-uG-cpo">
-                                <rect key="frame" x="166" y="185" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEU-Ee-3JO">
                                 <rect key="frame" x="166" y="150" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="JNz-uG-cpo" firstAttribute="centerX" secondItem="viY-9e-anK" secondAttribute="centerX" id="5bM-mn-H9u"/>
                             <constraint firstItem="KVG-2A-lOa" firstAttribute="top" secondItem="qXQ-8t-BLu" secondAttribute="bottom" constant="45" id="CqE-zG-Ebt"/>
                             <constraint firstItem="KVG-2A-lOa" firstAttribute="centerX" secondItem="viY-9e-anK" secondAttribute="centerX" id="KTT-zm-Xvx"/>
                             <constraint firstItem="zEU-Ee-3JO" firstAttribute="top" secondItem="KVG-2A-lOa" secondAttribute="bottom" constant="18" id="QQq-yo-aXn"/>
-                            <constraint firstItem="JNz-uG-cpo" firstAttribute="top" secondItem="zEU-Ee-3JO" secondAttribute="bottom" constant="16" id="ffO-S0-bgs"/>
                             <constraint firstItem="zEU-Ee-3JO" firstAttribute="centerX" secondItem="viY-9e-anK" secondAttribute="centerX" id="zcY-uB-RIp"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="artistLabel" destination="zEU-Ee-3JO" id="G77-sV-1Pt"/>
-                        <outlet property="ratingLabel" destination="JNz-uG-cpo" id="6RE-Zf-5PE"/>
                         <outlet property="titleLabel" destination="KVG-2A-lOa" id="EDu-Db-vDS"/>
                     </connections>
                 </viewController>

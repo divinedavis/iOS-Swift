@@ -11,7 +11,8 @@ import Foundation
 struct Song {
     var title : String 
     var artist : String
-    var rating : Double
+    let albumName : String
+    let artworkUrl : String 
 }
 
 
