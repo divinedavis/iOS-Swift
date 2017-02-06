@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "16B82F101C75792900CA83D5"
+               BlueprintIdentifier = "1626D4EB1D7A009C00C102B7"
                BuildableName = "BullsEye.app"
                BlueprintName = "BullsEye"
                ReferencedContainer = "container:BullsEye.xcodeproj">
@@ -28,11 +28,31 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1626D5021D7A009D00C102B7"
+               BuildableName = "BullsEyeTests.xctest"
+               BlueprintName = "BullsEyeTests"
+               ReferencedContainer = "container:BullsEye.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1626D50D1D7A009D00C102B7"
+               BuildableName = "BullsEyeUITests.xctest"
+               BlueprintName = "BullsEyeUITests"
+               ReferencedContainer = "container:BullsEye.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16B82F101C75792900CA83D5"
+            BlueprintIdentifier = "1626D4EB1D7A009C00C102B7"
             BuildableName = "BullsEye.app"
             BlueprintName = "BullsEye"
             ReferencedContainer = "container:BullsEye.xcodeproj">
@@ -55,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16B82F101C75792900CA83D5"
+            BlueprintIdentifier = "1626D4EB1D7A009C00C102B7"
             BuildableName = "BullsEye.app"
             BlueprintName = "BullsEye"
             ReferencedContainer = "container:BullsEye.xcodeproj">
@@ -74,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16B82F101C75792900CA83D5"
+            BlueprintIdentifier = "1626D4EB1D7A009C00C102B7"
             BuildableName = "BullsEye.app"
             BlueprintName = "BullsEye"
             ReferencedContainer = "container:BullsEye.xcodeproj">
