@@ -13,6 +13,7 @@
 		164591F31E492E530011044B /* WorkingWithPropertyLists.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 164591F11E492E530011044B /* WorkingWithPropertyLists.xcdatamodeld */; };
 		164591F51E492E530011044B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164591F41E492E530011044B /* Assets.xcassets */; };
 		164591F81E492E530011044B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164591F61E492E530011044B /* LaunchScreen.storyboard */; };
+		164592001E492ECD0011044B /* favList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 164591FF1E492ECD0011044B /* favList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		164591F41E492E530011044B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		164591F71E492E530011044B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		164591F91E492E530011044B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		164591FF1E492ECD0011044B /* favList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = favList.plist; path = ../favList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				164591F41E492E530011044B /* Assets.xcassets */,
 				164591F61E492E530011044B /* LaunchScreen.storyboard */,
 				164591F91E492E530011044B /* Info.plist */,
+				164591FF1E492ECD0011044B /* favList.plist */,
 				164591F11E492E530011044B /* WorkingWithPropertyLists.xcdatamodeld */,
 			);
 			path = WorkingWithPropertyLists;
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164592001E492ECD0011044B /* favList.plist in Resources */,
 				164591F81E492E530011044B /* LaunchScreen.storyboard in Resources */,
 				164591F51E492E530011044B /* Assets.xcassets in Resources */,
 				164591F01E492E530011044B /* Main.storyboard in Resources */,
